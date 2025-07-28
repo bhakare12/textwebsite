@@ -1,0 +1,33 @@
+<!-- DescendantSelector.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector Example</title>
+    <link rel="stylesheet" href="../CSS/descendantselectorexample.css">
+    
+</head>
+<body>
+    <a href="./index.html">Home page</a>
+
+    <div class="parent">
+        <ul>
+            <li>The descendant selector in CSS is represented by a whitespace (space) character.</li>
+            <li>The descendant selector selects all elements that are descendants of a specified element.It selects all elements that are descendants (children, grandchildren, etc.) of a specified element, regardless of how deeply nested they are.</li>
+            <li>The descendant selector matches all elements that are descendants of a specified element.It applies styles to all matching elements, not just direct children.</li>
+        </ul>
+        <h1>This is the parent element</h1>
+        <p>This is a paragraph inside the parent element.</p>
+        <div>Another child</div>
+        <div>
+            <p>This paragraph is nested inside a div. <br>
+            The style implemented for .parent p will be used.</p>
+        </div>
+        <div>
+            <p>This is another paragraph inside a div.</p>
+            <span>This is inside div</span>
+        </div>
+    </div>
+</body>
+</html>

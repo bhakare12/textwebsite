@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chipi Technologies- Job Application form</title>
+</head>
+<body>
+
+    <h1>ChiPi Technologies - Job Application Form</h1>
+ <p> <a href="./index.html">Home page</a> </p>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Application Details</legend>
+
+            <label for="position">Position Applied For:</label>
+            <select id="position" name="position">
+                <option value="">--Select--</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="qa">QA Engineer</option>
+                <option value="manager">Project Manager</option>
+            </select>
+
+            <label for="resume">Resume Upload:</label>
+            <input type="file" id="resume" name="resume">
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+
+            <label>Skills:</label>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label>
+
+            <input type="checkbox" id="js" name="skills" value="JavaScript">
+            <label for="js">JavaScript</label>
+
+            <input type="checkbox" id="python" name="skills" value="Python">
+            <label for="python">Python</label>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </fieldset>
+
+        <div class="buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+</body>
+</html>

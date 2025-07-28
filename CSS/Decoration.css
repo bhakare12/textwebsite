@@ -1,0 +1,64 @@
+/* ===================================================================== */
+/* START: ChiPi Technologies - Advanced Text Decoration Styles Section   */
+/* ===================================================================== */
+
+/* Underline with default style */
+.underline-default {
+  text-decoration-line: underline;
+}
+
+/* Overline with solid red */
+.overline-red {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+  text-decoration-style: solid;
+}
+
+/* Line-through with thick blue dashed */
+.line-through-dashed {
+  text-decoration-line: line-through;
+  text-decoration-color: blue;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 3px;
+}
+
+/* Underline and overline combo with wavy green */
+.underline-overline-wavy {
+  text-decoration-line: underline overline;
+  text-decoration-color: green;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+}
+
+/* All three lines with double style and custom color/thickness */
+.all-decoration-double {
+  text-decoration-line: underline overline line-through;
+  text-decoration-style: double;
+  text-decoration-color: purple;
+  text-decoration-thickness: 2px;
+}
+
+/* Underline with dotted orange, thin line */
+.underline-dotted-thin {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: orange;
+  text-decoration-thickness: 3px;
+}
+
+/* Line-through with wavy pink and thick line */
+.line-through-wavy-thick {
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+  text-decoration-color: deeppink;
+  text-decoration-thickness: 4px;
+}
+
+/* No text decoration */
+.no-decoration {
+  text-decoration: none;
+}
+
+/* ===================================================================== */
+/* END: ChiPi Technologies - Advanced Text Decoration Styles Section     */
+/* ===================================================================== */

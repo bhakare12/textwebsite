@@ -1,0 +1,27 @@
+/* --------------------------------------------- */
+/* ChiPi Technologies - Text Transformation Properties */
+/* --------------------------------------------- */
+
+/* Converts all letters to uppercase */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Converts all letters to lowercase */
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* Capitalizes the first letter of each word */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Keeps the text as is (no transformation) */
+.normal-case {
+  text-transform: none;
+}
+
+/* --------------------------------------------- */
+/* End of ChiPi Technologies - Text Transformation Styles */
+/* --------------------------------------------- */

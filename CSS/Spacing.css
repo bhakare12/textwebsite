@@ -1,0 +1,27 @@
+/* --------------------------------------------- */
+/* ChiPi Technologies - Text Spacing Properties */
+/* --------------------------------------------- */
+
+/* Increases space between characters */
+.letter-spacing {
+  letter-spacing: 8px;
+}
+
+/* Increases space between words */
+.word-spacing {
+  word-spacing: 15px;
+}
+
+/* Sets line height for better readability */
+.line-height {
+  line-height: 2.5;
+}
+
+/* Indents the first line of the paragraph */
+.text-indent {
+  text-indent: 40px;
+}
+
+/* --------------------------------------------- */
+/* End of ChiPi Technologies - Text Spacing Styles */
+/* --------------------------------------------- */

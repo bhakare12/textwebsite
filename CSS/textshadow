@@ -1,0 +1,77 @@
+.container {
+    border: 1px solid #ac3d3d;
+    padding: 10px;
+    background-color: #9e74c5;
+    margin : 5px;        
+}
+
+/* 
+      text-shadow syntax: offset-x offset-y color(optional)
+      
+      5px → horizontal offset: shadow is shifted 5px to the right of the text
+      5px → vertical offset: shadow is shifted 5px below the text
+      No color specified → defaults to black
+*/
+.shadow1 {
+    text-shadow: 5px 5px;
+}
+
+/* 
+      text-shadow syntax: offset-x offset-y blur-radius color(optional)
+      
+      5px → horizontal offset: shadow is shifted 5px to the right of the text
+      5px → vertical offset: shadow is shifted 5px below the text
+      5px → blur radius: shadow edges are blurred by 5px, creating a soft shadow
+      No color specified → defaults to black
+*/
+.shadow2 {
+    text-shadow: 5px 5px 5px;
+}
+
+/* 
+      text-shadow syntax: offset-x offset-y blur-radius color
+      
+      5px → horizontal offset: shadow is shifted 5px to the right of the text
+      5px → vertical offset: shadow is shifted 5px below the text
+      5px → blur radius: shadow edges are blurred by 5px, creating a soft shadow
+      #c52d2d → color of the shadow
+*/
+.shadow3 {
+    text-shadow: 5px 5px 5px #c52d2d;
+}
+
+/* 
+      text-shadow syntax: offset-x offset-y blur-radius color
+      
+      5px → horizontal offset: shadow is shifted 5px to the right of the text
+      5px → vertical offset: shadow is shifted 5px below the text
+      5px → blur radius: shadow edges are blurred by 5px, creating a soft shadow
+      #fdfdfd, #f0d90c, #f00ca4 → multiple shadows with different colors
+*/
+.shadow4 {
+    text-shadow: 5px 5px 5px #fdfdfd, 10px 3px 7px #f0d90c,15px 5px 7px #f00ca4;
+}
+
+/* 
+      text-shadow syntax: offset-x offset-y blur-radius color
+      
+      1px 1px 2px #fff → first shadow with white color
+      2px 2px 4px #ff0 → second shadow with yellow color
+      3px 3px 6px #f90 → third shadow with orange color
+      4px 4px 8px #f00 → fourth shadow with red color
+      5px 5px 10px #90f → fifth shadow with purple color
+      6px 6px 12px #00f → sixth shadow with blue color
+*/
+.shadow5 {
+  text-shadow: 
+    3px 3px 2px #fff,
+    6px 6px 4px #ff0,
+    9px 9px 6px #f90,
+    12px 12px 8px #f00,
+    155px 15px 10px #90f,
+    18px 18px 12px #00f;
+}
+
+.bigfontsize {
+    font-size: 60px;
+}

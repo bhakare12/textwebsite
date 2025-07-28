@@ -1,0 +1,153 @@
+/*==============================================================================
+  ChiPi Technologies – Background Size CSS
+==============================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f0fe;
+  color: #333;
+  line-height: 1.4;
+}
+.site-header {
+  background-color: #1a73e8;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/*==============================================================================
+  Base container (stacked)
+==============================================================================*/
+.container {
+  width: 90%;
+  max-width: 1700px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 3px solid #1a73e8;
+  border-radius: 6px;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+/*==============================================================================
+  background-size: auto
+==============================================================================*/
+/* The background-size property specifies the size of the background image.
+ * It can take values like auto, cover, contain, or specific lengths/percentages.
+ */
+ /* background-size: auto */
+ /* The background-size: auto value means the background image will keep its original size.
+ * If the image is larger than the container, it will overflow. */
+
+.size-auto-1 {
+  background-image: url('/images/download2.jpeg');
+  background-size: auto;
+}
+.size-auto-2 {
+  background-image: url('/images/download12.jpeg');
+  background-size: auto;
+}
+.size-auto-3 {
+  background-image: url('https://chipitechnologies.com/static/media/How%20to%20connect%20to%20database%20(1).da93638dd1eb8945f400.JPG');
+  background-size: auto;
+}
+
+/*==============================================================================
+  background-size: cover
+==============================================================================*/
+/* The background-size: cover value means the background image will cover the entire container,
+ * potentially cropping the image to maintain its aspect ratio. It ensures no empty space is left.
+ */
+.size-cover-1 {
+  background-image: url('/images/download2.jpeg');
+  background-size: cover;
+}
+.size-cover-2 {
+  background-image: url('/images/download12.jpeg');
+  background-size: cover;
+}
+.size-cover-3 {
+  background-image: url('https://chipitechnologies.com/static/media/How%20to%20connect%20to%20database%20(1).da93638dd1eb8945f400.JPG');
+  background-size: cover;
+}
+
+/*==============================================================================
+  background-size: contain
+==============================================================================*/
+/* The background-size: contain value means the background image will be resized to fit within the container,
+ * maintaining its aspect ratio. It ensures the entire image is visible, but may leave empty space in the container.
+ */
+.size-contain-1 {
+  background-image: url('/images/download2.jpeg');
+  background-size: contain;
+}
+.size-contain-2 {
+  background-image: url('/images/download12.jpeg');
+  background-size: contain;
+}
+.size-contain-3 {
+  background-image: url('https://chipitechnologies.com/static/media/How%20to%20connect%20to%20database%20(1).da93638dd1eb8945f400.JPG');
+  background-size: contain;
+}
+
+/*==============================================================================
+  background-size: single length
+==============================================================================*/
+/* The background-size: single length value means the background image will be resized to a specific width,
+ * while maintaining its aspect ratio. The height will adjust automatically.
+ */
+.size-length-1 {
+  background-image: url('/images/download2.jpeg');
+  background-size: 100px;
+}
+.size-length-2 {
+  background-image: url('/images/download12.jpeg');
+  background-size: 150px;
+}
+.size-length-3 {
+  background-image: url('https://chipitechnologies.com/static/media/How%20to%20connect%20to%20database%20(1).da93638dd1eb8945f400.JPG');
+  background-size: 200px;
+}
+
+/*==============================================================================
+  background-size: single percentage
+==============================================================================*/
+/* The background-size: single percentage value means the background image will be resized to a specific percentage of the container's width,
+ * while maintaining its aspect ratio. The height will adjust automatically.
+ */
+.size-percent-1 {
+  background-image: url('/images/download2.jpeg');
+  background-size: 50%;
+}
+.size-percent-2 {
+  background-image: url('/images/download12.jpeg');
+  background-size: 75%;
+}
+.size-percent-3 {
+  background-image: url('https://chipitechnologies.com/static/media/How%20to%20connect%20to%20database%20(1).da93638dd1eb8945f400.JPG');
+  background-size: 100%;
+}
+
+/*==============================================================================
+  background-size: two lengths
+==============================================================================*/
+/* The background-size: two lengths value means the background image will be resized to specific width and height values.
+ * This allows for precise control over the image size, but may distort the image if the aspect ratio is not maintained.
+ */
+.size-2len-1 {
+  background-image: url('/images/download2.jpeg');
+  background-size: 100px 50px;
+}
+.size-2len-2 {
+  background-image: url('/images/download12.jpeg');
+  background-size: 150px 75px;
+}
+.size-2len-3 {
+  background-image: url('https://chipitechnologies.com/static/media/How%20to%20connect%20to%20database%20(1).da93638dd1eb8945f400.JPG');
+  background-size: 200px 100px;
+}

@@ -1,0 +1,55 @@
+<!-- ChildSelector.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector Example</title>
+    <link rel="stylesheet" href="../CSS/childselectorexample.css">    
+</head>
+<body>
+    <div class="parent">
+        <h1>This is the parent element</h1>
+        <p>
+            <a href="./index.html">Home page</a>
+        </p>
+
+        <!-- Direct child paragraph -->
+        <p>This is a paragraph inside the parent element.</p>
+
+        <!-- Nested div -->
+        <div>
+            <p>This paragraph is nested inside a div. <br>
+            The style for .parent > p will not apply.</p>
+            <span>This is inside div</span>
+        </div>
+
+        <!-- Direct child element with ID -->
+        <section id="announcement">
+            <h2>Important Announcement</h2>
+        </section>
+
+        <!-- Direct child element with a nested ul -->
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Courses</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li id="itemjquery">jQuery</li>
+                <li>Bootstrap</li>
+                <li>React</li>  
+                <li>Angular</li>
+                <li>Vue</li>
+                <li>Bootstrap</li>
+                <li>Tailwind</li>    
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

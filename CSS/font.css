@@ -1,0 +1,53 @@
+/* ===================================================================== */
+/* START: ChiPi Technologies - Font Styling Section                      */
+/* ===================================================================== */
+
+/* Using system monospace font */
+.font-family-system {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Using system sans-serif font */
+.font-family-sans {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Using Google Font: Poppins (needs import in HTML) */
+.font-family-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Using Google Font: Roboto Slab (needs import in HTML) */
+.font-family-roboto-slab {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Font size example */
+.font-size {
+  font-size: 24px;
+}
+
+/* Italic font style */
+.font-style {
+  font-style: italic;
+}
+
+/* Bold font weight */
+.font-weight {
+  font-weight: bold;
+}
+
+/* Custom font weight */
+.font-weight-600 {
+  font-weight: 600;
+}
+
+/* Normal font */
+.font-normal {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* ===================================================================== */
+/* END: ChiPi Technologies - Font Styling Section                        */
+/* ===================================================================== */

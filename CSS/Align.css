@@ -1,0 +1,37 @@
+/* ============================================================= */
+/* START: ChiPi Technologies - Text Alignment Properties Section */
+/* ============================================================= */
+
+/* Aligns text to the left (explicit) */
+.align-left {
+  text-align: left;
+}
+
+/* Aligns text to the right (explicit) */
+.align-right {
+  text-align: right;
+}
+
+/* Aligns text to the center of the container */
+.align-center {
+  text-align: center;
+}
+
+/* Justifies the text */
+.align-justify {
+  text-align: justify;
+}
+
+/* Aligns text to the logical start */
+.align-start {
+  text-align: start;
+}
+
+/* Aligns text to the logical end */
+.align-end {
+  text-align: end;
+}
+
+/* ============================================================= */
+/* END: ChiPi Technologies - Text Alignment Properties Section   */
+/* ============================================================= */

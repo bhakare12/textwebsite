@@ -1,0 +1,188 @@
+/* =========================================================================
+   :first-child & :last-child Examples (These only apply if more than one child exists)
+   ========================================================================= */
+/* It will select the first child of type li in the ul with class demo-firstlast */
+ul.demo-firstlast li:first-child {
+    background: #ffe082;
+    color: #0b17c0;
+    font-weight: bold;
+    border-left: 4px solid #fbc02d;
+}
+
+/* It will select the last child of type li in the ul with class demo-firstlast */
+ul.demo-firstlast li:last-child {
+    background: #c5e1a5;
+    color: #1b5e20;
+    font-weight: bold;
+    border-right: 4px solid #558b2f;
+}
+
+/* It will select the first child of type p in the div with class demo-firstlast */
+div.demo-firstlast p:first-child {
+    background: #b3e5fc;
+    color: #01579b;
+    font-weight: bold;
+    border-left: 4px solid #0288d1;
+}
+
+/* It will select the last child of type p in the div with class demo-firstlast */
+div.demo-firstlast p:last-child {
+    background: #f3e5f5;
+    color: #6a1b9a;
+    font-weight: bold;
+    border-right: 4px solid #ab47bc;
+}
+/* It will select the first child of type li inside ol with class demo-firstlast */
+ol.demo-firstlast li:first-child {
+    background: #ffe0b2;
+    color: #e65100;
+    border-left: 4px solid #ff9800;
+}
+
+/* It will select the last child of type li inside ol with class demo-firstlast */
+ol.demo-firstlast li:last-child {
+    background: #e0f7fa;
+    color: #006064;
+    border-right: 4px solid #00bcd4;
+}
+
+/* =========================================================================
+   :only-child & :only-of-type Examples (Use with single child/only type)
+   ========================================================================= */
+/* It will select the only child of type p in the div with class demo-only */
+div.demo-only > p:only-child {
+    background: #e1bee7;
+    color: #4a148c;
+    font-weight: bold;
+    border: 2px solid #7e57c2;
+}
+/* It will select the only child of type span in the div with class demo-only */
+div.demo-only > span:only-of-type {
+    background: #b2ebf2;
+    color: #006064;
+    font-weight: bold;
+    border: 2px dashed #00bcd4;
+}
+/* It will select the only child of type li in the ul with class demo-only */
+ul.demo-only li:only-child {
+    background: #dcedc8;
+    color: #558b2f;
+    font-weight: bold;
+    border: 2px solid #33691e;
+}
+/* It will select the only child of type em in the div with class demo-only */
+div.demo-only2 > em:only-of-type {
+    background: #ffccbc;
+    color: #bf360c;
+    font-weight: bold;
+    border: 2px dashed #ff7043;
+}
+/* It will select the only child of type b in the div with class demo-only2 */
+div.demo-only2 > b:only-of-type {
+    background: #ffccbc;
+    color: #bf360c;
+    font-weight: bold;
+    border: 2px dashed #ff7043;
+}
+
+/* =========================================================================
+   :nth-child(n) & :nth-last-child(n) Examples (Add at least 5 children to avoid conflicts)
+   ========================================================================= */
+/* It will select the 3rd child of type li in the ul with class demo-nth */   
+ul.demo-nth li:nth-child(3) {
+    background: #fff9c4;
+    color: #f57f17;
+    border: 2px solid #fbc02d;
+}
+/* It will select the 2nd child of type li inside ul with class demo-nth */
+ul.demo-nth li:nth-last-child(2) {
+    background: #f8bbd0;
+    color: #880e4f;
+    border: 2px dashed #f06292;
+}
+/* It will select the even child of type li inside ul with class demo-nth */
+ul.demo-nth li:nth-child(even) {
+    font-style: italic;
+    background: #e3fdfd;
+}
+
+/* It will select the 4th child of type p in the div with class demo-nth */
+div.demo-nth p:nth-child(4) {
+    background: #ffecb3;
+    color: #e65100;
+    border: 2px solid #ff9800;
+}
+
+/* It will select the 2nd child of type li inside ol with class demo-nth */
+ol.demo-nth li:nth-child(2) {
+    background: #e0f2f1;
+    color: #00695c;
+    border: 2px solid #004d40;
+}
+/* It will select the 3rd last child of type li inside ol with class demo-nth */
+ol.demo-nth li:nth-last-child(3) {
+    background: #fbe9e7;
+    color: #bf360c;
+    border: 2px dashed #ff5722;
+}
+
+/* =========================================================================
+   :first-of-type, :last-of-type, :nth-of-type(n), :nth-last-of-type(n) Examples
+   ========================================================================= */
+/* It will select the first child of type p in the div with class demo-type */   
+div.demo-type > p:first-of-type {
+    background: #c8e6c9;
+    color: #1b5e20;
+    border-bottom: 2px solid #43a047;
+}
+/* It will select the last child of type p in the div with class demo-type */
+div.demo-type > p:last-of-type {
+    background: #ffe082;
+    color: #ff6f00;
+    border-top: 2px solid #ffb300;
+}
+/* It will select the first child of type span in the div with class demo-type */
+div.demo-type > span:first-of-type {
+    background: #b3e5fc;
+    color: #0277bd;
+    border-bottom: 2px solid #01579b;
+}
+/* It will select the last child of type span in the div with class demo-type */
+div.demo-type > span:last-of-type {
+    background: #f3e5f5;
+    color: #8e24aa;
+    border-top: 2px solid #6a1b9a;
+}
+/* It will select the 2nd child of type em in the div with class demo-type */
+div.demo-type > em:nth-of-type(2) {
+    background: #fffde7;
+    color: #fbc02d;
+    border: 2px dotted #fdd835;
+}
+/* It will select the 2nd last child of type p in the div with class demo-type */
+div.demo-type > p:nth-last-of-type(2) {
+    background: #ffe0b2;
+    color: #ff6f00;
+    border: 2px dashed #ffb300;
+}
+
+
+/* =========================================================================
+   :empty Examples (These elements must have absolutely no content inside!)
+   ========================================================================= */
+
+/* It will select any empty p and empty span in the div with class demo-empty */
+.empty-example:empty,
+div.demo-empty > span:empty,
+div.demo-empty > p:empty {
+    background: #f44336;
+    min-height: 32px;
+    min-width: 80px;
+    display: inline-block;
+    border: 2px dotted #b71c1c;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    font-style: italic;
+}

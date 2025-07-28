@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Structural Pseudo-Classes | ChiPi Technologies</title>
+    <link rel="stylesheet" href="../CSS/Structural-PositionBased.css">
+</head>
+<body>
+    <h1>Structural Pseudo-Classes Demo (CSS)</h1>
+    <p>
+       <a href="./index.html">Home page</a>
+    </p>   
+
+
+    <!-- ====================== :first-child and :last-child ===================== -->
+    <section>
+        <h2>:first-child & :last-child</h2>
+        <ul class="demo-firstlast">
+            <li>First</li>
+            <li>Middle</li>
+            <li>Almost Last</li>
+            <li>Last</li>
+        </ul>
+        <div class="demo-firstlast">
+            <p>First paragraph in div</p>
+            <p>Middle paragraph in div</p>
+            <p>Another paragraph in div</p>
+            <p>Last paragraph in div</p>
+        </div>
+        <ol class="demo-firstlast">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+        </ol>
+
+    </section>
+    <hr>
+
+    <!-- ====================== :only-child & :only-of-type ===================== -->
+    <section>
+        <h2>:only-child & :only-of-type</h2>
+        <div class="demo-only">
+            <p>I am the only child and only-of-type (p)</p>
+        </div>
+        <div class="demo-only">
+            <span>Only span in div (only-of-type)</span>
+            <p>Another type (so only-of-type for span, not only-child)</p>
+        </div>
+        <ul class="demo-only">
+            <li>Only child in ul (li)</li>
+        </ul>
+        <div class="demo-only2">
+            <em>I am only-of-type (em) here</em>
+            <span>Another type</span>
+            <b>Another type</b>
+        </div>
+    </section>
+    <hr>
+
+    <!-- ====================== :nth-child(n), :nth-last-child(n) ===================== -->
+    <section>
+        <h2>:nth-child(n) & :nth-last-child(n)</h2>
+        <ul class="demo-nth">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ul>
+        <div class="demo-nth">
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+            <p>Paragraph 6</p>
+        </div>
+        <ol class="demo-nth">
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>Fifth</li>
+        </ol>
+    </section>
+    <hr>
+
+    <!-- ====================== :first-of-type, :last-of-type, :nth-of-type(n), :nth-last-of-type(n) ===================== -->
+    <section>
+        <h2>:first-of-type, :last-of-type, :nth-of-type(n), :nth-last-of-type(n)</h2>
+        <div class="demo-type">
+            <span>Span 1</span>
+            <p>Para 1</p>
+            <em>Emphasis 1</em>
+            <p>Para 2</p>
+            <span>Span 2</span>
+            <em>Emphasis 2</em>
+            <p>Para 3</p>
+            <span>Span 3</span>
+            <p>Para 4</p>
+            <em>Emphasis 3</em>
+        </div>
+    </section>
+    <hr>
+
+    <!-- ====================== :empty ===================== -->
+    <section>
+        <h2>:empty</h2>
+        <div class="empty-example"></div>
+        <p class="empty-example"></p>
+        <div class="demo-empty">
+            <span></span>
+            <span>Not empty</span>
+            <span> </span> <!-- Not empty because of whitespace -->
+            <p></p>
+            <p>Not empty</p>
+        </div>
+        <p>Not empty</p>
+    </section>
+</body>
+</html>

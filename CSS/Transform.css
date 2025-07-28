@@ -1,0 +1,19 @@
+/* --------------------------------------------- */
+/* ChiPi Technologies - Text Direction and Bidi */
+/* --------------------------------------------- */
+
+/* Sets text direction left-to-right with override */
+.ltr-text {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+
+/* Sets text direction right-to-left with override */
+.rtl-text {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+/* --------------------------------------------- */
+/* End of ChiPi Technologies - Direction and Bidi Styles */
+/* --------------------------------------------- */

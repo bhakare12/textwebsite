@@ -1,0 +1,27 @@
+/* --------------------------------------------- */
+/* ChiPi Technologies - White Space Handling */
+/* --------------------------------------------- */
+
+/* Preserves whitespace and wraps text when needed */
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+/* Collapses whitespace and wraps text */
+.normal-white-space {
+  white-space: normal;
+}
+
+/* Prevents the text from wrapping */
+.no-wrap {
+  white-space: nowrap;
+}
+
+/* Preserves whitespace and line breaks exactly */
+.pre {
+  white-space: pre;
+}
+
+/* --------------------------------------------- */
+/* End of ChiPi Technologies - White Space Styles */
+/* --------------------------------------------- */

@@ -1,0 +1,132 @@
+/*==============================================================================
+  ChiPi Technologies – Background Repeat CSS
+==============================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f0fe;
+  color: #333;
+  line-height: 1.4;
+}
+.site-header {
+  background-color: #1a73e8;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/*==============================================================================
+  Base container (stacked)
+==============================================================================*/
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 3px solid #1a73e8;
+  border-radius: 6px;
+  height: 500px;
+}
+
+/*==============================================================================
+  repeat
+==============================================================================*/
+.repeat-1 {
+  background-image: url('/images/download2.jpeg');
+  background-repeat: repeat;
+}
+.repeat-2 {
+  background-image: url('/images/download12.jpeg');
+  background-repeat: repeat;
+}
+.repeat-3 {
+  background-image: url('https://chipitechnologies.com/static/media/HTMLSession6.231006c5ced4174d797c.jpg');
+  background-repeat: repeat;
+}
+
+/*==============================================================================
+  repeat-x
+==============================================================================*/
+.repeat-x-1 {
+  background-image: url('/images/download2.jpeg');
+  background-repeat: repeat-x;
+}
+.repeat-x-2 {
+  background-image: url('/images/download12.jpeg');
+  background-repeat: repeat-x;
+}
+.repeat-x-3 {
+  background-image: url('https://chipitechnologies.com/static/media/HTMLSession6.231006c5ced4174d797c.jpg');
+  background-repeat: repeat-x;
+}
+
+/*==============================================================================
+  repeat-y
+==============================================================================*/
+.repeat-y-1 {
+  background-image: url('/images/download2.jpeg');
+  background-repeat: repeat-y;
+}
+.repeat-y-2 {
+  background-image: url('/images/download12.jpeg');
+  background-repeat: repeat-y;
+}
+.repeat-y-3 {
+  background-image: url('https://chipitechnologies.com/static/media/HTMLSession6.231006c5ced4174d797c.jpg');
+  background-repeat: repeat-y;
+}
+
+/*==============================================================================
+  no-repeat
+==============================================================================*/
+.no-repeat-1 {
+  background-image: url('/images/download2.jpeg');
+  background-repeat: no-repeat;
+}
+.no-repeat-2 {
+  background-image: url('/images/download12.jpeg');
+  background-repeat: no-repeat;
+}
+.no-repeat-3 {
+  background-image: url('https://chipitechnologies.com/static/media/HTMLSession6.231006c5ced4174d797c.jpg');
+  background-repeat: no-repeat;
+}
+
+/*==============================================================================
+  space
+==============================================================================*/
+.space-1 {
+  background-image: url('/images/download2.jpeg');
+  background-repeat: space;
+  max-width: 1200px; 
+  height: 500px;
+}
+.space-2 {
+  background-image: url('/images/download12.jpeg');
+  background-repeat: space;
+}
+.space-3 {
+  background-image: url('https://chipitechnologies.com/static/media/HTMLSession6.231006c5ced4174d797c.jpg');
+  background-repeat: space;
+}
+
+/*==============================================================================
+  round
+==============================================================================*/
+.round-1 {
+  background-image: url('/images/download2.jpeg');
+  background-repeat: round;
+}
+.round-2 {
+  background-image: url('/images/download12.jpeg');
+  background-repeat: round;
+}
+.round-3 {
+  background-image: url('https://chipitechnologies.com/static/media/HTMLSession6.231006c5ced4174d797c.jpg');
+  background-repeat: round;
+}
